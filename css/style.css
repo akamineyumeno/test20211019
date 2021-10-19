@@ -1,0 +1,132 @@
+@charset "UTF-8";
+html {
+    overflow-y: scroll; /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+    /*Internet Explorerが独自に追加したプロパティ*/
+    /*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+    scroll-behavior: smooth;
+}
+/* リセットおまじない--------------------------------- */
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    border: 0px;
+    vertical-align: bottom;
+}
+/* --------------------------------------------------- */
+body {
+    color:#3b4043;
+}
+h1{
+    font-size: 28px;
+    margin: 40px;
+}
+h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+p{
+    text-align: left;
+}
+a{
+    display:block;
+}
+
+header{ 
+    background-color: rgb(175, 245, 224);
+    width: 100%;
+    height: 55px;
+    color: rgb(12, 24, 138);
+    font-weight: 700;
+    line-height: 55px;
+    display: flex;
+     justify-content: space-around;
+}
+ ul{
+     display: flex;
+     justify-content: space-around;
+     width: 40%;
+ }
+
+#sec1{
+width: 100%;
+height: 600px;
+color: crimson;
+background: no-repeat center center;
+background-image: url("../img/colter-olmstead-Z8wKh9wHrwg-unsplash.jpg");
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#sec2{
+    border: solid 3px #000;
+    padding: 50px;
+    background-color: rgb(187, 221, 107);
+    margin: 100px;
+}
+
+
+
+#sec3 img{
+    height: auto;
+    width: 100%;
+}
+
+#sec3 {
+    display: flex;
+}
+
+#sec3 .container {
+    width: 33%;
+}
+
+#sec4 img{
+    width: 300px;
+} 
+
+#sec4 p{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+#sec4  {
+    text-align: left;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#sec5 .prof img{
+    width: 250px;
+    height: 250px;
+border-radius: 50%;
+}
+
+#sec5 .prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
